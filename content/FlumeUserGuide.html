@@ -7944,39 +7944,95 @@ source code of the components.</p>
 </div>
 <div class="section" id="sinks-1">
 <h4>Sinks 1<a class="headerlink" href="#sinks-1" title="Permalink to this headline">¶</a></h4>
-<div class="system-message">
-<p class="system-message-title">System Message: ERROR/3 (<tt class="docutils">/Users/rgoers/projects/apache/flume/flume-site/source/sphinx/FlumeUserGuide.rst</tt>, line 5331)</p>
-<p>Malformed table.</p>
-<div class="highlight-none"><div class="highlight"><pre>+------------------------+-------------+------------+-------+--------+
-|                        | Avro/Thrift | AsyncHBase | HBase | HBase2 |
-+------------------------+-------------+------------+-------+--------+-
-| BatchCompleteCount     | x           | x          | x     | x      |
-+------------------------+-------------+------------+-------+--------+
-| BatchEmptyCount        | x           | x          | x     | x      |
-+------------------------+-------------+------------+-------+--------+
-| BatchUnderflowCount    | x           | x          | x     | x      |
-+------------------------+-------------+------------+-------+--------+
-| ChannelReadFail        | x           |            |       | x      |
-+------------------------+-------------+------------+-------+--------+
-| ConnectionClosedCount  | x           | x          | x     | x      |
-+------------------------+-------------+------------+-------+--------+
-| ConnectionCreatedCount | x           | x          | x     | x      |
-+------------------------+-------------+------------+-------+--------+
-| ConnectionFailedCount  | x           | x          | x     | x      |
-+------------------------+-------------+------------+-------+--------+
-| EventDrainAttemptCount | x           | x          | x     | x      |
-+------------------------+-------------+------------+-------+--------+
-| EventDrainSuccessCount | x           | x          | x     | x      |
-+------------------------+-------------+------------+-------+--------+
-| EventWriteFail         | x           |            |       | x      |
-+------------------------+-------------+------------+-------+--------+
-| KafkaEventSendTimer    |             |            |       |        |
-+------------------------+-------------+------------+-------+--------+
-| RollbackCount          |             |            |       |        |
-+------------------------+-------------+------------+-------+--------+
-</pre></div>
-</div>
-</div>
+<table border="1" class="docutils">
+<colgroup>
+<col width="38%" />
+<col width="20%" />
+<col width="19%" />
+<col width="11%" />
+<col width="13%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>&nbsp;</td>
+<td>Avro/Thrift</td>
+<td>AsyncHBase</td>
+<td>HBase</td>
+<td>HBase2</td>
+</tr>
+<tr class="row-even"><td>BatchCompleteCount</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+</tr>
+<tr class="row-odd"><td>BatchEmptyCount</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+</tr>
+<tr class="row-even"><td>BatchUnderflowCount</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+</tr>
+<tr class="row-odd"><td>ChannelReadFail</td>
+<td>x</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>x</td>
+</tr>
+<tr class="row-even"><td>ConnectionClosedCount</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+</tr>
+<tr class="row-odd"><td>ConnectionCreatedCount</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+</tr>
+<tr class="row-even"><td>ConnectionFailedCount</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+</tr>
+<tr class="row-odd"><td>EventDrainAttemptCount</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+</tr>
+<tr class="row-even"><td>EventDrainSuccessCount</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+<td>x</td>
+</tr>
+<tr class="row-odd"><td>EventWriteFail</td>
+<td>x</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>x</td>
+</tr>
+<tr class="row-even"><td>KafkaEventSendTimer</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>RollbackCount</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="sinks-2">
 <h4>Sinks 2<a class="headerlink" href="#sinks-2" title="Permalink to this headline">¶</a></h4>
